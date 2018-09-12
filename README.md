@@ -1170,7 +1170,7 @@ class Employee {
 最小化需要修改一个类的次数时很重要的， 因为如果一个类拥有太多的功能， 一旦你修改它的一小部分，
 将会很难弄清楚会对代码库中的其它模块造成什么影响。
 
-**好的：**
+**不好的：**
 ```javascript
 class UserSettings {
   constructor(user) {
